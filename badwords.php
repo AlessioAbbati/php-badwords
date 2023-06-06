@@ -1,9 +1,9 @@
 <?php
-$def_text = 'Il tuo testo è:' ;
+$def_text = 'Hai inserito:' ;
 $user_text = $_GET['text'];
 
 $censure = $_GET['censure'];
-$def_censure = 'Il tuo testo censurato è:';
+$def_censure = 'Ora il tuo testo è:';
 $text_censored = str_replace($censure, '***', $user_text) ;
 
 ?>
